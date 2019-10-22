@@ -4,6 +4,12 @@
     padding: 0;
   }
 
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/greek-vase.png");
+}
+
 body h1 {
     font-size: 28px;
     line-height: 1em; 
@@ -30,16 +36,6 @@ a {
     font-size: 18px;
     line-height: 78px;
 }
-
-.copyright {
-    color: #fff;
-}
-
-body {
-    width: 100%;
-    height: 100%;
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/greek-vase.png");
-} 
 
 header {
     background: #fff;
@@ -76,13 +72,13 @@ section {
     margin: 40px auto !important;
     border: 1px solid #ddd;
 }
-
+/*About Me*/
 .about-me {
     background: #fff;
     width: 960px;
     margin: 0 auto;
     padding: 20px;  
-    overflow: auto;  
+    overflow: auto;
 }
 
 .profile-pic {
@@ -91,6 +87,10 @@ section {
     float: left;
 }
 
+/* Portfolio */
+
+
+/* Footer */
 footer {
     width: 100%;
     position: absolute;
@@ -98,5 +98,8 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
+}
 
+.copyright {
+    color: #fff;
 }
