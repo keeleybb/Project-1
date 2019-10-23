@@ -90,12 +90,12 @@ nav {
 }
 
 .main-con {
-    margin: 40px auto !important;
-    border: 1px solid #ddd;
     background: #fff;
     width: 960px;
     padding: 20px;  
     overflow: auto;
+    margin: 40px auto !important;
+    border: 1px solid #ddd;
 }
 
 .profile-pic {
